@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Nim {
+  justify-content: center;
+  align-items: center;
+}
+
+.Game {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.GameColumn {
+  display: inline;
+}
+
+.ColumnButton {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border-color: black;
+  border-width: 1px;
+}
+
+.Empty {
+  background-color: white;
+}
+
+.Filled {
+  background-color: black;
+}
+
+.ButtonContainer {
+  display: grid;
+  justify-content: space-around;
+}
+
+.ColumnCounter {
+  display: flex;
+  justify-content: space-around;
+}
